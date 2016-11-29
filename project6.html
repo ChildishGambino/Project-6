@@ -5,8 +5,13 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <svg width="100%" viewBox="0 0 800 400">
-       <image id="player" x="250" y="20" width="80" height="80" xlink:href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/763485/batFlap.gif"/>
+    <svg width="100%" viewBox="0 0 1000 400">
+       <image id="player" x="250" y="20" width="80" height="80" xlink:href="http://bestanimations.com/Animals/Mammals/Dogs/Wolves/wolf-running-animated-gif.gif"/>
+
+       <image id="food1" x="575" y="0" width="80" height="80" xlink:href="http://www.pngall.com/wp-content/uploads/2016/05/Cherry-PNG.png">
+          <animate id="5to325" attributeName="y" from="0" to="325" dur="5s" begin="0s; 325to5.end"/>
+          <animate id="325to5" attributeName="y" from="325" to="0" dur="5s" begin="5to325.end"/>
+       </image>
 
     </svg>
     <script src="project6.js"></script>
